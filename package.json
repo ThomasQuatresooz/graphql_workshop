@@ -1,0 +1,27 @@
+{
+  "name": "Workshop-Graphql",
+  "version": "1.0.0",
+  "description": "A beginner workshop about graphql during my training at Becode",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon --watch src/server/ -e js,gql src/*/server.js"
+  },
+  "keywords": [],
+  "author": "@ThomasQuatresooz",
+  "license": "ISC",
+  "dependencies": {
+    "casual": "^1.6.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "graphql-playground-middleware-express": "^1.7.20",
+    "graphql-tools": "^6.1.0",
+    "lodash": "^4.17.20",
+    "mariadb": "^2.4.2",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "private": "true"
+}
